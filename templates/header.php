@@ -34,13 +34,14 @@
                     </div>
                     <div class="flex-right" id="nav-menu">
                         <ul>
-                            <li class="active"><a href="javascript:void(0)">Service</a></li>
-                            <li><a href="javascript:void(0)">Portfolio</a></li>
-                            <li><a href="javascript:void(0)">Blogs</a></li>
-                            <li><a href="javascript:void(0)">Solutions</a></li>
+                            <li class="active"><a href="javascript:void(0)"><span class="btn-text">Service</span><span class="btn-text-hover">Service</span></a></li>
+                            <li><a href="javascript:void(0)"><span class="btn-text">Portfolio</span><span class="btn-text-hover">Portfolio</span></a></li>
+                            <li><a href="javascript:void(0)"><span class="btn-text">Blogs</span><span class="btn-text-hover">Blogs</span></a></li>
+                            <li><a href="javascript:void(0)"><span class="btn-text">Solutions</span><span class="btn-text-hover">Solutions</span></a></li>
                         </ul>
                         <a href="javascript:void(0)" class="btn btn-primary">
                             <span class="btn-text">Call us now</span>
+                            <span class="btn-text-hover">Call us now</span>
                             <span class="btn-dot"></span>
                         </a>
                     </div>

@@ -8,7 +8,7 @@
       <div class="hero-content">
         <div class="hero-title-section">
           <p class="hero-subtitle">Title will coming here</p>
-          <h1 class="hero-title">Building future-ready solutions with creativity, technology, & innovation.</h1>
+          <h1 class="hero-title">Building future-ready services with creativity, technology, & innovation.</h1>
         </div>
         <p class="hero-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry's standard dummy.</p>
@@ -35,112 +35,49 @@
         <div class="logo-item"><img src="assets/images/slider-logo-3.png" /></div>
         <div class="logo-item"><img src="assets/images/slider-logo-4.png" /></div>
     </div>
-</section>
+  </section>
 
   <!-- Portfolio Section -->
   <section id="portfolio" class="portfolio-section">
     <div class="container">
       <div class="section-header max-700">
         <p class="section-subtitle">Lorem ipsum</p>
-        <h2 class="section-title">Portfolio.</h2>
-        <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard dummy.</p>
+        <h2 class="section-title">Services & capabilities.</h2>
+        <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
       </div>
 
-      <div class="portfolio-list">
-        <div class="portfolio-item">
-          <div class="portfolio-content">
-            <div class="portfolio-text">
-              <div class="portfolio-info">
-                <div class="portfolio-details">
-                  <h3 class="portfolio-name">Portfolio name</h3>
-                  <p class="portfolio-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </p>
-                </div>
-                <div class="portfolio-line"></div>
-              </div>
-              <a href="#" class="portfolio-link hide-mobile">
-                <span>Explore project</span>
-                <svg width="20" height="20" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-            <img src="assets/images/img_rectangle_2.png" alt="Portfolio project screenshot" class="portfolio-image">
-            <a href="#" class="portfolio-link show-mobile">
-                <span>Explore project</span>
-                <svg width="20" height="20" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-          </div>
-        </div>
-
-
-        <div class="portfolio-item">
-          <div class="portfolio-content">
-            <div class="portfolio-text">
-              <div class="portfolio-info">
-                <div class="portfolio-details">
-                  <h3 class="portfolio-name">Portfolio name</h3>
-                  <p class="portfolio-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </p>
-                </div>
-                <div class="portfolio-line"></div>
-              </div>
-              <a href="#" class="portfolio-link hide-mobile">
-                <span>Explore project</span>
-                <svg width="20" height="20" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-            <img src="assets/images/img_rectangle_2.png" alt="Portfolio project screenshot" class="portfolio-image">
-            <a href="#" class="portfolio-link show-mobile">
-                <span>Explore project</span>
-                <svg width="20" height="20" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-          </div>
-        </div>
-
-
-        <div class="portfolio-item">
-          <div class="portfolio-content">
-            <div class="portfolio-text">
-              <div class="portfolio-info">
-                <div class="portfolio-details">
-                  <h3 class="portfolio-name">Portfolio name</h3>
-                  <p class="portfolio-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </p>
-                </div>
-                <div class="portfolio-line"></div>
-              </div>
-              <a href="#" class="portfolio-link hide-mobile">
-                <span>Explore project</span>
-                <svg width="20" height="20" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-            </div>
-            <img src="assets/images/img_rectangle_2.png" alt="Portfolio project screenshot" class="portfolio-image">
-            <a href="#" class="portfolio-link show-mobile">
-                <span>Explore project</span>
-                <svg width="20" height="20" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </a>
-          </div>
-        </div>
-
+   <div class="services">
+  <div class="container">
+    
+    <div class="service-card">
+      <span class="service-number">01</span>
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="">
       </div>
+      <h3>Web development</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="service-number">02</span>
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692" alt="">
+      </div>
+      <h3>Web development</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="service-number">03</span>
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="">
+      </div>
+      <h3>Custom web & mobile applications</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+
+  </div>
+</div>
 
       <div style="text-align: center; margin-top: 60px;">
         <a href="#contact" class="btn btn-primary">
@@ -152,127 +89,6 @@
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section id="services" class="services-section">
-    <div class="container">
-      <div class="section-header max-700">
-        <p class="section-subtitle">Lorem ipsum</p>
-        <h2 class="section-title">Delivering scalable, & innovative IT solutions.</h2>
-        <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard dummy.</p>
-      </div>
-
-      <div class="services-list">
-        <div class="service-item">
-          <div class="service-enhanced" >
-            <div class="service-flex">
-              <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <div class="service-content">
-                <h3 class="service-title ">Web development</h3>
-                <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry.</p>
-              </div>
-            </div>
-            <div class="service-images">
-              <img src="assets/images/img_rectangle_2_138x148.png" alt="Web development example 1"
-                style="width: 148px; height: 138px;">
-              <img src="assets/images/img_rectangle_5.png" alt="Web development example 2"
-                style="width: 148px; height: 106px; margin-left: 10px;">
-              <img src="assets/images/img_rectangle_6.png" alt="Web development example 3"
-                style="width: 148px; height: 138px; margin-left: 10px;">
-            </div>
-          </div>
-        </div>
-
-        <div class="service-line"></div>
-
-        <div class="service-item">
-          <div class="service-enhanced">
-            <div class="service-flex">
-              <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <div class="service-content">
-                <h3 class="service-title ">Web development</h3>
-                <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry.</p>
-              </div>
-            </div>
-            <div class="service-images">
-              <img src="assets/images/img_rectangle_2_138x148.png" alt="Web development example 1"
-                style="width: 148px; height: 138px;">
-              <img src="assets/images/img_rectangle_5.png" alt="Web development example 2"
-                style="width: 148px; height: 106px; margin-left: 10px;">
-              <img src="assets/images/img_rectangle_6.png" alt="Web development example 3"
-                style="width: 148px; height: 138px; margin-left: 10px;">
-            </div>
-          </div>
-        </div>
-
-        <div class="service-line"></div>
-
-        <div class="service-item">
-          <div class="service-enhanced">
-            <div class="service-flex">
-              <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <div class="service-content">
-                <h3 class="service-title ">Web development</h3>
-                <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry.</p>
-              </div>
-            </div>
-            <div class="service-images">
-              <img src="assets/images/img_rectangle_2_138x148.png" alt="Web development example 1"
-                style="width: 148px; height: 138px;">
-              <img src="assets/images/img_rectangle_5.png" alt="Web development example 2"
-                style="width: 148px; height: 106px; margin-left: 10px;">
-              <img src="assets/images/img_rectangle_6.png" alt="Web development example 3"
-                style="width: 148px; height: 138px; margin-left: 10px;">
-            </div>
-          </div>
-        </div>
-
-        <div class="service-line"></div>
-
-        <div class="service-item">
-          <div class="service-enhanced">
-            <div class="service-flex">
-              <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              <div class="service-content">
-                <h3 class="service-title ">Web development</h3>
-                <p class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry.</p>
-              </div>
-            </div>
-            <div class="service-images">
-              <img src="assets/images/img_rectangle_2_138x148.png" alt="Web development example 1"
-                style="width: 148px; height: 138px;">
-              <img src="assets/images/img_rectangle_5.png" alt="Web development example 2"
-                style="width: 148px; height: 106px; margin-left: 10px;">
-              <img src="assets/images/img_rectangle_6.png" alt="Web development example 3"
-                style="width: 148px; height: 138px; margin-left: 10px;">
-            </div>
-          </div>
-        </div>
-
-        <div class="service-line"></div>
-      </div>
-    </div>
-  </section>
 
   <!-- Tech Section -->
   <section class="tech-section">
@@ -323,98 +139,6 @@
       </div>
     </div>
 
-  </section>
-
-  <!-- Innovation Section -->
-  <section id="solutions" class="innovation-section">
-    <div class="container">
-      <div class="section-header max-700">
-        <p class="section-subtitle">Lorem ipsum</p>
-        <h2 class="section-title">Innovation & impacts that matters.</h2>
-        <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard dummy.</p>
-      </div>
-
-      <div class="innovation-grid">
-        <div class="innovation-card">
-          <div class="innovation-header">
-            <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <h3 class="innovation-title">Lorem ipsum dummy title</h3>
-          </div>
-          <p class="innovation-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry.</p>
-        </div>
-
-        <div class="innovation-card">
-          <div class="innovation-header">
-            <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <h3 class="innovation-title">Lorem ipsum dummy title</h3>
-          </div>
-          <p class="innovation-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry.</p>
-        </div>
-
-        <div class="innovation-card">
-          <div class="innovation-header">
-            <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <h3 class="innovation-title">Lorem ipsum dummy title</h3>
-          </div>
-          <p class="innovation-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry.</p>
-        </div>
-
-        <div class="innovation-card">
-          <div class="innovation-header">
-            <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <h3 class="innovation-title">Lorem ipsum dummy title</h3>
-          </div>
-          <p class="innovation-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry.</p>
-        </div>
-
-        <div class="innovation-card">
-          <div class="innovation-header">
-            <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <h3 class="innovation-title">Lorem ipsum dummy title</h3>
-          </div>
-          <p class="innovation-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry.</p>
-        </div>
-
-        <div class="innovation-card">
-          <div class="innovation-header">
-            <svg width="19" class="service-icon" height="19" viewBox="0 0 19 19" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.0625 15L15.0625 4M15.0625 4H4.0625M15.0625 4V15" stroke="#7E7E7E" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <h3 class="innovation-title">Lorem ipsum dummy title</h3>
-          </div>
-          <p class="innovation-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry.</p>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- CTA Section -->

@@ -142,11 +142,62 @@
   font-size: 16px;
   font-weight: 600;
   color: #7E7E7E;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .header-flexbox .flex-right ul li.active a,
 .header-flexbox .flex-right ul li a:hover {
   color: #ffffff;
+}
+
+.header-flexbox .flex-right ul li a .btn-text {
+  position: relative;
+  top: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.header-flexbox .flex-right ul li a .btn-text-hover {
+  transition: 0.3s ease-in-out;
+  position: relative;
+  bottom: -25px;
+}
+
+.header-flexbox .flex-right ul li a:hover .btn-text {
+  transition: 0.3s ease-in-out;
+  position: relative;
+  top: -30px;
+}
+
+.header-flexbox .flex-right ul li a:hover .btn-text-hover {
+  transition: 0.3s ease-in-out;
+  position: relative;
+  bottom: 12px;
+}
+
+.footer-link .btn-text {
+  position: relative;
+  top: 9px;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-link .btn-text-hover {
+  transition: 0.3s ease-in-out;
+  position: relative;
+  bottom: -25px;
+}
+
+.footer-link:hover .btn-text {
+  transition: 0.3s ease-in-out;
+  position: relative;
+  top: -25px;
+}
+
+.footer-link:hover .btn-text-hover {
+  transition: 0.3s ease-in-out;
+  position: relative;
+  bottom: 30px;
 }
 
 .header-main.shrink {
@@ -333,6 +384,7 @@ img {
   gap: 60px;
   padding: 60px;
   margin: 0;
+  border-bottom: 5px solid #2f2f2f;
 }
 
 .portfolio-item:nth-child(even) {
@@ -704,6 +756,25 @@ innovation-card .portfolio-link img {
   width: 52%;
 }
 
+.home-slider {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+.home-slider .slider-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  width: 100%;
+}
 /* Recognition Section */
 .recognition-section {
   padding: 80px 56px;
@@ -733,7 +804,7 @@ innovation-card .portfolio-link img {
 }
 
 .recognition-card img {
-  width: 174px;
+  width: 165px;
   height: 86px;
 }
 
@@ -830,7 +901,9 @@ innovation-card .portfolio-link img {
   max-width: 500px;
   padding: 20px;
 }
-
+.form-container .btn .btn-dot {
+  right: 35%;
+}
 /* Input Group Layout */
 .row {
   display: flex;
@@ -1010,6 +1083,9 @@ select {
 .footer-link {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 40px;
   gap: 20px;
   text-decoration: none;
   color: #7e7e7e;
@@ -1077,220 +1153,6 @@ button:active {
   padding: 16px;
 }
 
-/* Responsive media queries */
-@media (min-width: 640px) {
-  .container {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
-  .hero-title {
-    font-size: 48px;
-    line-height: 56px;
-  }
-
-  .section-title {
-    font-size: 48px;
-    line-height: 60px;
-  }
-
-  .contact-title,
-  .cta-title {
-    font-size: 48px;
-    line-height: 56px;
-  }
-
-  .portfolio-name {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .service-title,
-  .innovation-title {
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .contact-email {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .contact-phone {
-    font-size: 20px;
-    line-height: 26px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  .hamburger {
-    display: none;
-  }
-
-  .nav-menu {
-    display: flex;
-  }
-
-  .hero-content {
-    margin: 0 80px;
-  }
-
-  .hero-title {
-    font-size: 52px;
-    line-height: 60px;
-  }
-
-  .section-title {
-    font-size: 52px;
-    line-height: 64px;
-  }
-
-  .contact-title,
-  .cta-title {
-    font-size: 52px;
-    line-height: 60px;
-  }
-
-  .portfolio-content {
-    flex-direction: row;
-  }
-
-  .innovation-grid {
-    gap: 60px;
-  }
-
-  .form-row {
-    flex-direction: row;
-  }
-
-  .footer-links {
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 1024px) {
-  .hero-title {
-    font-size: 60px;
-    line-height: 70px;
-  }
-
-  .section-title {
-    font-size: 60px;
-    line-height: 76px;
-  }
-
-  .contact-title,
-  .cta-title {
-    font-size: 60px;
-    line-height: 70px;
-  }
-
-  .portfolio-name {
-    font-size: 40px;
-    line-height: 51px;
-  }
-
-  .service-title,
-  .innovation-title {
-    font-size: 30px;
-    line-height: 38px;
-  }
-
-  .contact-email {
-    font-size: 40px;
-    line-height: 51px;
-  }
-
-  .contact-phone {
-    font-size: 25px;
-    line-height: 32px;
-  }
-
-  .hero-content {
-    margin: 0 160px;
-    gap: 40px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1320px;
-  }
-}
-
-@media (max-width: 991px) {
-  .portfolio-content {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .portfolio-image {
-    width: 100%;
-  }
-
-  .service-enhanced {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .service-enhanced .service-content {
-    width: 100%;
-  }
-
-  .service-description {
-    width: 100%;
-  }
-
-  .service-images {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .innovation-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .contact-container {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .contact-info {
-    width: 100%;
-    gap: 40px;
-  }
-
-  .cta-title {
-    width: 100%;
-  }
-
-  .cta-description {
-    width: 100%;
-  }
-
-
-  .footer-links {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .footer-nav {
-    flex-wrap: wrap;
-  }
-
-  .footer-social {
-    justify-content: center;
-    width: 100%;
-  }
-}
-
 .slider {
   width: 100%;
   overflow: hidden;
@@ -1305,12 +1167,24 @@ button:active {
   width: max-content;
   animation: scroll 40s linear infinite;
 }
+.slider-track:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
 
 .reverse {
   animation: scroll-reverse 40s linear infinite;
 }
 
 /* CARD */
+.hide-mobile { 
+  display: inline-flex;
+}
+.show-mobile {
+  display: none;
+}
 .card {
   width: 360px;
   background: linear-gradient(180deg, #111, #0a0a0a);
@@ -1412,10 +1286,129 @@ button:active {
   }
 }
 
+/* Media Queries - Mobile First */
+/* Mobile S */
+@media screen and (max-width: 767px) {
 
-@media screen and (min-width: 992px) {
-  .mobile-toggle {
+  .home-slider {
+    height: 160px;
+  }
+  .form-container .btn .btn-dot {
+    right: 33%;
+  }
+  .hide-mobile { 
     display: none;
+  }
+  .show-mobile {
+    display: inline-flex;
+  }
+  .recognition-logos {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .recognition-card {
+    width: 100%;
+  }
+
+  .cta-section>.container::after {
+    bottom: -440px;
+    right: auto;
+    left: auto;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+  }
+  .cta-section .d-flex {
+    gap: 0;
+    margin: 0;
+    height: 100%;
+  }
+  .cta-section>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100%;
+  }
+  .cta-section .cta-button {
+    position: relative;
+    bottom: 94px;
+  }
+  .cta-section {
+    height: 900px;
+  }
+}
+
+@media (max-width: 991px) {
+  .portfolio-content {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .portfolio-image {
+    width: 100%;
+  }
+
+  .service-enhanced {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .service-enhanced .service-content {
+    width: 100%;
+  }
+
+  .service-description {
+    width: 100%;
+  }
+  .service-images.active {
+    display: flex;
+  }
+  .service-images {
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .innovation-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-info {
+    width: 100%;
+    gap: 40px;
+  }
+
+  .cta-title {
+    width: 100%;
+  }
+
+  .cta-description {
+    width: 100%;
+  }
+
+
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+
+  .footer-social {
+    justify-content: center;
+    width: 100%;
   }
 }
 
@@ -1719,20 +1712,384 @@ button:active {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .recognition-logos {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .recognition-card {
-    width: 100%;
-  }
-
-  .cta-section>.container::after {
-    bottom: -440px;
-    right: -90px;
-    width: 500px;
-    height: 500px;
+@media screen and (max-width:1024px) {
+  .form-container .btn .btn-dot {
+    right: 42%;
   }
 }
+/* Mobile E */
+
+/* Tablet S */
+@media (min-width: 640px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .section-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .contact-title,
+  .cta-title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .portfolio-name {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .service-title,
+  .innovation-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .contact-email {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .contact-phone {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .hero-content {
+    margin: 0 80px;
+  }
+
+  .hero-title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  .section-title {
+    font-size: 52px;
+    line-height: 64px;
+  }
+
+  .contact-title,
+  .cta-title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+  
+
+  .portfolio-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .innovation-grid {
+    gap: 60px;
+  }
+
+  .form-row {
+    flex-direction: row;
+  }
+
+  .footer-links {
+    justify-content: space-between;
+  }
+}
+/* Tablet E */
+
+/* Desktop S */
+@media screen and (min-width: 992px) {
+  .mobile-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .section-title {
+    font-size: 60px;
+    line-height: 76px;
+  }
+
+  .contact-title,
+  .cta-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .portfolio-name {
+    font-size: 40px;
+    line-height: 51px;
+  }
+
+  .service-title,
+  .innovation-title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .contact-email {
+    font-size: 40px;
+    line-height: 51px;
+  }
+
+  .contact-phone {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .hero-content {
+
+  .page-grid-two {
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(
+
+4, minmax(0, 1fr));
+  }
+
+  .contact-strip-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+    margin: 0 160px;
+    gap: 40px;
+  }
+
+  .page-grid-two {
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+
+/* Additional Inner Pages S */
+.page-section {
+  padding: 100px 0;
+}
+.page-grid-two {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.page-section-dark {
+  background: #0f1114;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.stats-grid article {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 30px 24px;
+}
+
+.stats-grid h3 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.stats-grid p {
+  color: #a4a4a4;
+  margin: 0;
+}
+
+.contact-strip {
+  padding: 90px 0;
+}
+
+.contact-strip-inner {
+  border: 1px solid #252525;
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+/* Additional Inner Pages E */
+
+
+  .stats-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .contact-strip-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+/* Desktop E */
+
+/* Additional Inner Pages S */
+.page-section {
+  padding: 100px 0;
+}
+
+.page-grid-two {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.page-section-dark {
+  background: #0f1114;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.stats-grid article {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 30px 24px;
+}
+
+.stats-grid h3 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.stats-grid p {
+  color: #a4a4a4;
+  margin: 0;
+}
+
+.contact-strip {
+  padding: 90px 0;
+}
+
+.contact-strip-inner {
+  border: 1px solid #252525;
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+/* Additional Inner Pages E */
+
+.services {
+  padding: 60px 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.service-card {
+  position: relative;
+  background: #1a1a1a;
+  padding: 20px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Number */
+.service-number {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 60px;
+  color: rgba(255,255,255,0.08);
+  font-weight: bold;
+}
+
+/* Image */
+.service-img {
+  height: 220px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.service-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.service-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Text */
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .service-number {
+    font-size: 40px;
+  }
+} 
