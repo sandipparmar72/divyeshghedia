@@ -2018,12 +2018,6 @@ button:active {
   padding: 60px 20px;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
 /* Card */
 .service-card {
   position: relative;
